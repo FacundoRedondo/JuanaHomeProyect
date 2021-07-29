@@ -1,0 +1,437 @@
+
+body {
+    background-color: $body;
+  
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+
+.header__main{
+    width: 100%;
+    height: 700px;
+    background:  #FEF7DC;  /* fallback for old browsers */
+    background-image: url(../fotos/banner-almhoadones2.jpg);
+    background-position: center;
+    background-size: cover;
+    
+
+    display: inline-block;
+   
+    z-index: 10;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000000;
+
+
+
+  
+
+    .main__head{
+        
+        text-align: center;
+        font-style: italic;
+        padding: 5rem ;
+        font-size: 2rem; 
+        height: 70%;
+    
+        .titulo{
+            font-size: 300%;
+            word-spacing: 10%;
+        }
+        
+    }
+
+
+}
+
+
+
+header nav ul{
+    text-align: center;
+    color:white;
+    
+    
+   
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: rgb(0, 0, 0) ;
+    background-color: rgb(216, 216, 216);
+    
+    
+}
+
+
+.li--navbar{
+list-style: none;
+text-align: center;
+overflow: hidden;
+display: inline-block;
+
+
+}
+
+
+header nav ul li a {
+    display: block;
+    padding: 3rem 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    font-size: 2rem;
+
+  }
+
+  
+
+.grid{
+    height: 30%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer{
+    background-color: #222222 ;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+
+    .text-footer{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-family: cursive;
+        font-size: 1.5rem;
+        
+    }
+
+    
+
+
+}
+
+
+.copyright{  
+    background-color: #222222;
+    
+
+    .footer-copyright{
+        text-align: center;
+        align-content: center;
+        background-color: #222222;
+        font-family: cursive;
+        color: white;
+        font-size: 1rem;
+        
+                }
+
+}
+
+.sobre_nosotros{
+
+    .section__comentarios{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #A19882 ;
+        max-width: 100%;
+
+            p{
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size:250%;
+                text-align: center;
+                justify-content: center;
+                margin-bottom: 100px;
+                margin-top: 100px;
+            }
+
+
+        
+    
+        
+    }
+
+    .titulo-01{
+        text-align: center;
+        align-content: center;
+        background-color: #eceeec ;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 50px;
+        padding-top: 50px;
+
+    }
+
+    .how_we_do_it{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #eceeec ;
+        justify-content: space-evenly;
+        width: 100%;
+       
+        
+    }
+
+    p{
+        font-family: fantasy;
+        font-size: 200%;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 50px;
+        padding-top: 25px;
+      
+    }
+
+    .how_we_do_it_2{
+        display: flex;
+        flex-direction: column;
+        background-color: #eceeec;
+        border-radius: 25%;       
+        width: 25%;
+        align-items: center;
+        @media (max-width: 400px){width: 100%;}
+    }
+
+    .photos_how_we_do_it{
+
+        width: 80%;
+        height: 80%;
+       
+        justify-content: center;
+    }
+}
+
+
+.about__us{
+    background-color: #A19882;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+    
+
+    .titulo_about_us{
+        background-color: #A19882 ;
+        align-content: center;
+        text-align: center;
+        margin-top: 50px;
+    
+       }
+}
+
+
+.container{
+    display: flex;
+
+}
+
+.padre{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+ }
+
+
+
+
+#carousel__main{
+    display: flex;
+    
+    width: 100%;
+    height: 35%;
+    background-color:#eceeec ;
+    background-image: url();
+    background-position: center;
+    margin-right: auto ;
+    margin-left: auto;
+    align-content: center;
+    justify-content: center
+    
+    ;
+
+    .row {
+        
+        width: 50%;
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+    
+   
+}
+
+
+.opiniones{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:#C2B8A3 ;
+    
+    
+    max-width: 100%;
+    
+    
+        .opiniones-1{ 
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 50px;
+            padding-bottom: 70px;
+        }
+
+        .opiniones-2{
+            display: flex;
+            flex-direction: row ;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            height: 50%;
+            margin-bottom: 50px;
+
+
+            .opiniones-2-1{
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(0, 0, 0);
+                width: 400px;
+                justify-content: center;
+                text-align: center;
+                color: white;
+                border-radius: 15%;
+            }
+
+            .opiniones-2-1-photo{
+                padding-top: 5px;
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+            }
+            
+
+            .opiniones-2-1-nombres{
+                font-size: 30px;
+                font-family:'Source Sans Pro', sans-serif ;
+            }
+
+            .opiniones-2-1-opinion{
+                font-family: 'Source Sans Pro', sans-serif ;
+                font-size: 35px;
+            }
+        }
+
+}
+
+
+
+    .index_wallpaper{
+        background-image: url(../fotos/prueba_01.jpg);
+        background-position: center;
+        height: 800px;
+    }
+
+
+.gift{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #C2B8A3;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+
+    .gift_01{
+        width: 100%;
+        text-align: center;
+        align-items: flex-end;
+        justify-content: center ;
+    }
+
+
+    
+    .gift_02_01{
+        display: flex;
+        flex-direction: column;
+
+        h1{
+            color: rgb(0, 0, 0);
+            font-size: 2.5rem;
+        }
+
+        p{
+           color: rgb(109, 104, 104); 
+
+        }
+   
+        .gift_02{
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+
+            }
+    }
+    .photo__gift{
+        width: 20%;
+    
+    }
+}
+
+
+
+    @media (max-width: 400px){
+
+        .opiniones{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            background-color:#C2B8A3 ;
+            height: auto;
+            max-width: 100%;
+
+        }
+
+        .opiniones-2-1{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(0, 0, 0);
+            width: auto;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            border-radius: 15%;
+        }
+
+        .opiniones-2{
+            display: flex;
+            flex-direction: row ;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            height: 50%;
+            margin-bottom: 50px;
+            width: 100%;
+             }
+        
+             .photos{
+                display: inline;
+                width: 300px;
+                height: 300px;
+                margin: 30px;
+            }
+
+           
+                     
+           
+ }
+

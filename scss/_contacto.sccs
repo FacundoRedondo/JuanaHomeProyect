@@ -1,0 +1,5 @@
+.contact_wallpaper{
+        background-image: url(../fotos/prueba_01.jpg);
+        background-position: center;
+        height: 800px;
+    }

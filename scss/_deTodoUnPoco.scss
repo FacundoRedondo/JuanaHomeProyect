@@ -1,0 +1,215 @@
+.titulo{
+    text-align: center;
+    padding: 2%;
+}
+
+.catalogo{
+    background-color: salmon;
+
+}
+
+
+.de_todo_un_poco{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+
+    .asd{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        justify-content: space-evenly;
+        text-align: justify;
+    
+            
+        
+        .photos_div{
+            display: flex;
+            justify-content: center;
+            width: 50%;
+            
+            
+            
+        
+            .photos_detodo{
+                        width: 400px;
+                        height: 400px;
+                        justify-content: center;
+                        
+
+                            }
+        }
+
+
+        .texto_detodo{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-color:white;
+            font-size: 250%;
+            justify-content: center;
+            width: 50%;
+            background-color: #E6DDC6 ;
+            flex-wrap: wrap;
+            
+                p{
+                    font-family: 'Dancing Script', cursive;
+                }
+
+         }
+
+    }
+
+
+}
+
+
+
+.container{
+    flex-direction: column ;
+}
+
+
+
+
+
+@media (max-width: 600px){
+
+    .de_todo_un_poco{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+
+    .asd{
+        display: inline;
+      
+        width: 100%;
+        height: auto;
+        justify-content: space-evenly;
+        text-align: justify;
+    
+            
+        
+        .photos_div{
+            
+            justify-content: center;
+            width: 100%;
+            
+            
+            
+        
+            .photos_detodo{
+                        display: inline;
+                        width: 400px;
+                        height: 400px;
+                        justify-content: center;
+                        
+
+                            }
+        }
+
+
+        .texto_detodo{
+            display: inline;
+            
+            text-align: center;
+            background-color:white;
+            font-size: 250%;
+            justify-content: center;
+            width: 50%;
+            background-color: #E6DDC6 ;
+            
+            
+                p{
+                    font-family: 'Dancing Script', cursive;
+                }
+
+         }
+
+    }
+
+
+}
+
+}
+
+
+
+
+
+.back{
+    background-image: url(../fotos/pantalla-index.jpg);
+    background-position: 50%;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+@media (max-width: 799px){
+
+    .de_todo_un_poco{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+
+    .asd{
+        display: inline;
+      
+        width: 100%;
+        height: auto;
+        justify-content: space-evenly;
+        text-align: justify;
+    
+            
+        
+        .photos_div{
+            
+            justify-content: center;
+            width: 100%;
+            
+            
+            
+        
+            .photos_detodo{
+                        display: inline;
+                        width: 400px;
+                        height: 400px;
+                        justify-content: center;
+                        
+
+                            }
+        }
+
+
+        .texto_detodo{
+            display: inline;
+            
+            text-align: center;
+            background-color:white;
+            font-size: 250%;
+            justify-content: center;
+            width: 50%;
+            background-color: #E6DDC6 ;
+            
+            
+                p{
+                    font-family: 'Dancing Script', cursive;
+                }
+
+         }
+
+    }
+
+
+}
+
+}
+

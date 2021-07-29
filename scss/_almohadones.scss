@@ -1,0 +1,92 @@
+.photos{
+    display: inline;
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+}
+
+
+.row{
+    width: 100%;
+}
+
+.almohadones-2{
+    
+   
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 15px;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+
+    .card_almohadones{
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+        margin: 2.5%;
+        background-color: #C2B8A3 ;
+
+
+         p{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-style: oblique;
+            font-weight: bolder;
+            font-size: 250%;
+
+            }
+
+    }
+
+
+
+}
+
+
+
+#titulo_almohadones{
+    color: rgb(255, 255, 255);
+}
+
+
+#wallpaper_contact{
+    background-image: url(../fotos/wallpaper_contact.jpg);
+    
+}
+
+
+.contact_user{
+    text-align: center;
+    align-content: center;
+    font-size: medium;
+    font-style: oblique;
+    
+    margin-top: 50px;
+
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    .photo_contact{
+       height: 200px ;
+        width: 200px;   
+        justify-content: center;
+    }
+
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 500px;
+
+    }
+}
