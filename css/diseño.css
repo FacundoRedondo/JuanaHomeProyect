@@ -424,6 +424,10 @@ header nav ul li a {
     height: 250px;
     margin: 20px;
   }
+  /* line 466, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+  .header__main {
+    background-image: url(../fotos/fotos_generales_mobile/prueba_01.jpg);
+  }
 }
 
 /* line 1, ../../CODERHOUSE/ProyectoCoder/scss/_almohadones.scss */
@@ -565,19 +569,14 @@ header nav ul li a {
   padding: 2%;
 }
 
-/* line 6, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
-.catalogo {
-  background-color: salmon;
-}
-
-/* line 12, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+/* line 7, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
 .de_todo_un_poco {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
 
-/* line 18, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+/* line 13, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
 .de_todo_un_poco .asd {
   display: flex;
   flex-direction: row;
@@ -588,29 +587,21 @@ header nav ul li a {
   text-align: justify;
 }
 
-/* line 29, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+/* line 24, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
 .de_todo_un_poco .asd .photos_div {
   display: flex;
   justify-content: center;
   width: 50%;
 }
 
-/* line 37, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+/* line 32, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
 .de_todo_un_poco .asd .photos_div .photos_detodo {
   width: 400px;
   height: 400px;
   justify-content: center;
-  transition: all 500ms ease-out;
-  cursor: pointer;
 }
 
-/* line 44, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
-.de_todo_un_poco .asd .photos_div .photos_detodo .photos_detodo:focus {
-  width: 250px;
-  height: 200px;
-}
-
-/* line 53, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+/* line 45, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
 .de_todo_un_poco .asd .texto_detodo {
   display: flex;
   flex-direction: column;
@@ -623,26 +614,26 @@ header nav ul li a {
   flex-wrap: wrap;
 }
 
-/* line 64, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+/* line 56, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
 .de_todo_un_poco .asd .texto_detodo p {
   font-family: 'Dancing Script', cursive;
 }
 
-/* line 77, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+/* line 69, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
 .container {
   flex-direction: column;
   display: flex;
 }
 
 @media (max-width: 600px) {
-  /* line 91, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+  /* line 83, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
   .de_todo_un_poco {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
-  /* line 98, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+  /* line 90, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
   .de_todo_un_poco .asd {
     display: inline;
     width: 100%;
@@ -650,19 +641,19 @@ header nav ul li a {
     justify-content: space-evenly;
     text-align: justify;
   }
-  /* line 108, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+  /* line 100, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
   .de_todo_un_poco .asd .photos_div {
     justify-content: center;
     width: 100%;
   }
-  /* line 116, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+  /* line 108, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
   .de_todo_un_poco .asd .photos_div .photos_detodo {
     display: inline;
     width: 400px;
     height: 400px;
     justify-content: center;
   }
-  /* line 127, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+  /* line 119, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
   .de_todo_un_poco .asd .texto_detodo {
     display: inline;
     text-align: center;
@@ -672,13 +663,13 @@ header nav ul li a {
     width: 50%;
     background-color: #E6DDC6;
   }
-  /* line 138, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+  /* line 130, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
   .de_todo_un_poco .asd .texto_detodo p {
     font-family: 'Dancing Script', cursive;
   }
 }
 
-/* line 155, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+/* line 147, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
 .back {
   background-image: url(../fotos/pantalla-index.jpg);
   background-position: 50%;
@@ -687,14 +678,14 @@ header nav ul li a {
 }
 
 @media (max-width: 799px) {
-  /* line 168, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+  /* line 160, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
   .de_todo_un_poco {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
-  /* line 175, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+  /* line 167, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
   .de_todo_un_poco .asd {
     display: inline;
     width: 100%;
@@ -702,19 +693,19 @@ header nav ul li a {
     justify-content: space-evenly;
     text-align: justify;
   }
-  /* line 185, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+  /* line 177, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
   .de_todo_un_poco .asd .photos_div {
     justify-content: center;
     width: 100%;
   }
-  /* line 193, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+  /* line 185, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
   .de_todo_un_poco .asd .photos_div .photos_detodo {
     display: inline;
     width: 400px;
     height: 400px;
     justify-content: center;
   }
-  /* line 204, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+  /* line 196, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
   .de_todo_un_poco .asd .texto_detodo {
     display: inline;
     text-align: center;
@@ -724,7 +715,7 @@ header nav ul li a {
     width: 50%;
     background-color: #E6DDC6;
   }
-  /* line 215, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
+  /* line 207, ../../CODERHOUSE/ProyectoCoder/scss/_deTodoUnPoco.scss */
   .de_todo_un_poco .asd .texto_detodo p {
     font-family: 'Dancing Script', cursive;
   }

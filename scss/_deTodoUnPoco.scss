@@ -3,11 +3,6 @@
     padding: 2%;
 }
 
-.catalogo{
-    background-color: salmon;
-
-}
-
 
 .de_todo_un_poco{
         display: flex;
@@ -38,17 +33,14 @@
                         width: 400px;
                         height: 400px;
                         justify-content: center;
-                        transition: all 500ms ease-out;
-                        cursor: pointer;
                         
-                        .photos_detodo:focus{
-                            width: 250px;
-                            height: 200px;
-                        }
                         
+                      
                             }
         }
 
+        
+        
 
         .texto_detodo{
             display: flex;
