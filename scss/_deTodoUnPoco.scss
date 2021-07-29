@@ -38,8 +38,14 @@
                         width: 400px;
                         height: 400px;
                         justify-content: center;
+                        transition: all 500ms ease-out;
+                        cursor: pointer;
                         
-
+                        .photos_detodo:focus{
+                            width: 250px;
+                            height: 200px;
+                        }
+                        
                             }
         }
 
@@ -70,6 +76,7 @@
 
 .container{
     flex-direction: column ;
+    display: flex;
 }
 
 
@@ -77,6 +84,9 @@
 
 
 @media (max-width: 600px){
+
+
+    
 
     .de_todo_un_poco{
         width: 100%;
@@ -152,6 +162,8 @@
 }
 
 @media (max-width: 799px){
+
+
 
     .de_todo_un_poco{
         width: 100%;

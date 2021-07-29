@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .header__main {
@@ -18,9 +18,9 @@ body {
 }
 .header__main .main__head {
   text-align: center;
-  font-style: italic;
+  font-family: "Style Script", cursive;
   padding: 5rem;
-  font-size: 2rem;
+  font-size: 200%;
   height: 70%;
 }
 .header__main .main__head .titulo {
@@ -75,8 +75,11 @@ header nav ul li a {
   display: flex;
   flex-direction: column;
   color: white;
-  font-family: cursive;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.5rem;
+}
+.footer .text-footer a {
+  color: white;
 }
 
 .copyright {
@@ -86,7 +89,7 @@ header nav ul li a {
   text-align: center;
   align-content: center;
   background-color: #222222;
-  font-family: cursive;
+  font-family: "Source Sans Pro", sans-serif;
   color: white;
   font-size: 1rem;
 }
@@ -125,7 +128,7 @@ header nav ul li a {
   width: 100%;
 }
 .sobre_nosotros p {
-  font-family: fantasy;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 200%;
   text-align: center;
   justify-content: center;
@@ -254,7 +257,7 @@ header nav ul li a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #C2B8A3;
+  background-color: #eceeec;
   height: 50%;
   width: 100%;
   justify-content: center;
@@ -272,7 +275,8 @@ header nav ul li a {
 }
 .gift .gift_02_01 h1 {
   color: black;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  border-bottom: 2px solid black;
 }
 .gift .gift_02_01 p {
   color: #6d6868;
@@ -282,10 +286,29 @@ header nav ul li a {
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 3rem;
+  padding-bottom: 50px;
+}
+.gift .gift_02_01 .gift_02 .form-control-03 {
+  background-color: #f2f2f2;
+  border: 3px solid black;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.gift .gift_02_01 .gift_02 .form-control-03 a {
+  color: black;
+}
+.gift .gift_02_01 .form-control-02 {
+  background-color: #f2f2f2;
+  border: 3px solid black;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  resize: none;
 }
 .gift .photo__gift {
-  width: 20%;
+  width: 40%;
 }
 
 @media (max-width: 400px) {
@@ -321,16 +344,17 @@ header nav ul li a {
 
   .photos {
     display: inline;
-    width: 300px;
-    height: 300px;
-    margin: 30px;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
   }
 }
 .photos {
   display: inline;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   margin: 30px;
+  border-radius: 20px;
 }
 
 .row {
@@ -376,26 +400,61 @@ header nav ul li a {
   align-content: center;
   font-size: medium;
   font-style: oblique;
-  margin-top: 50px;
+  background-color: #f2f2f2;
+  padding-top: 50px;
+}
+.contact_user h1 {
+  margin-bottom: 0;
+  font-size: 3rem;
 }
 
-.contact {
+.conteiner_formulario {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #f2f2f2;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
-.contact .photo_contact {
-  height: 200px;
-  width: 200px;
-  justify-content: center;
+.conteiner_formulario .photo_contacto {
+  height: 250px;
+  width: 250px;
 }
-.contact .inputs {
+.conteiner_formulario .inputs_form {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  width: 500px;
+  width: 50%;
+}
+.conteiner_formulario .casilleros {
+  border: none;
+  border-bottom: 3px solid black;
+  width: 100%;
+  padding-top: 10px;
+}
+.conteiner_formulario .label {
+  font-family: cursive;
+  text-align: center;
+  margin-top: 30px;
+}
+.conteiner_formulario .form-control {
+  background-color: #f2f2f2;
+  border: none;
+  border: none;
+  border-bottom: 3px solid black;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.conteiner_formulario .form-control-02 {
+  background-color: #f2f2f2;
+  border: 3px solid black;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  resize: none;
 }
 
 .titulo {
@@ -430,6 +489,12 @@ header nav ul li a {
   width: 400px;
   height: 400px;
   justify-content: center;
+  transition: all 500ms ease-out;
+  cursor: pointer;
+}
+.de_todo_un_poco .asd .photos_div .photos_detodo .photos_detodo:focus {
+  width: 250px;
+  height: 200px;
 }
 .de_todo_un_poco .asd .texto_detodo {
   display: flex;
@@ -448,6 +513,7 @@ header nav ul li a {
 
 .container {
   flex-direction: column;
+  display: flex;
 }
 
 @media (max-width: 600px) {
