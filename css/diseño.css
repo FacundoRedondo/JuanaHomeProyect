@@ -13,13 +13,21 @@ body {
   background-image: url(../fotos/banner-almhoadones2.jpg);
   background-position: center;
   background-size: cover;
+  padding: 0;
   display: inline-block;
   z-index: 10;
   font-family: 'Source Sans Pro', sans-serif;
   color: #000000;
 }
 
-/* line 28, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 26, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+.header__main .navbar_new {
+  padding: 0;
+  background-color: #d8d8d8;
+  padding-left: 25px;
+}
+
+/* line 34, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .header__main .main__head {
   text-align: center;
   font-family: 'Style Script', cursive;
@@ -28,25 +36,26 @@ body {
   height: 70%;
 }
 
-/* line 36, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 42, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .header__main .main__head .titulo {
   font-size: 300%;
   word-spacing: 10%;
 }
 
-/* line 48, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 54, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 header nav ul {
   text-align: center;
   color: white;
 }
 
-/* line 56, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 62, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .navbar-light .navbar-nav .nav-link.active {
   color: black;
   background-color: #d8d8d8;
+  padding: 10px;
 }
 
-/* line 64, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 71, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .li--navbar {
   list-style: none;
   text-align: center;
@@ -54,7 +63,7 @@ header nav ul {
   display: inline-block;
 }
 
-/* line 74, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 81, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 header nav ul li a {
   display: block;
   padding: 3rem 1rem;
@@ -64,14 +73,14 @@ header nav ul li a {
   font-size: 2rem;
 }
 
-/* line 87, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 94, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .grid {
   height: 30%;
   width: 100%;
   overflow: hidden;
 }
 
-/* line 93, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 100, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .footer {
   background-color: #222222;
   display: flex;
@@ -84,7 +93,7 @@ header nav ul li a {
   height: 350px;
 }
 
-/* line 104, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 111, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .footer .text-footer {
   display: flex;
   flex-direction: column;
@@ -93,17 +102,17 @@ header nav ul li a {
   font-size: 1.5rem;
 }
 
-/* line 111, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 118, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .footer .text-footer a {
   color: white;
 }
 
-/* line 123, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 130, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .copyright {
   background-color: #222222;
 }
 
-/* line 127, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 134, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .copyright .footer-copyright {
   text-align: center;
   align-content: center;
@@ -113,7 +122,7 @@ header nav ul li a {
   font-size: 1rem;
 }
 
-/* line 141, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 148, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .sobre_nosotros .section__comentarios {
   display: flex;
   flex-direction: row;
@@ -124,7 +133,7 @@ header nav ul li a {
   max-width: 100%;
 }
 
-/* line 150, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 157, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .sobre_nosotros .section__comentarios p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 250%;
@@ -134,7 +143,7 @@ header nav ul li a {
   margin-top: 100px;
 }
 
-/* line 165, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 172, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .sobre_nosotros .titulo-01 {
   text-align: center;
   align-content: center;
@@ -144,7 +153,7 @@ header nav ul li a {
   padding-top: 50px;
 }
 
-/* line 175, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 182, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .sobre_nosotros .how_we_do_it {
   display: flex;
   flex-direction: row;
@@ -154,7 +163,7 @@ header nav ul li a {
   width: 100%;
 }
 
-/* line 186, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 193, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .sobre_nosotros p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 200%;
@@ -164,7 +173,7 @@ header nav ul li a {
   padding-top: 25px;
 }
 
-/* line 196, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 203, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .sobre_nosotros .how_we_do_it_2 {
   display: flex;
   flex-direction: column;
@@ -175,20 +184,20 @@ header nav ul li a {
 }
 
 @media (max-width: 400px) {
-  /* line 196, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+  /* line 203, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
   .sobre_nosotros .how_we_do_it_2 {
     width: 100%;
   }
 }
 
-/* line 206, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 213, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .sobre_nosotros .photos_how_we_do_it {
   width: 80%;
   height: 80%;
   justify-content: center;
 }
 
-/* line 216, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 223, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .about__us {
   background-color: #A19882;
   font-family: Arial, Helvetica, sans-serif;
@@ -196,7 +205,7 @@ header nav ul li a {
   padding: 5px;
 }
 
-/* line 223, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 230, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .about__us .titulo_about_us {
   background-color: #A19882;
   align-content: center;
@@ -204,12 +213,12 @@ header nav ul li a {
   margin-top: 50px;
 }
 
-/* line 233, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 240, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .container {
   display: flex;
 }
 
-/* line 238, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 245, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .padre {
   display: flex;
   flex-direction: row;
@@ -219,7 +228,7 @@ header nav ul li a {
   width: 100%;
 }
 
-/* line 251, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 258, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 #carousel__main {
   display: flex;
   width: 100%;
@@ -233,7 +242,7 @@ header nav ul li a {
   justify-content: center;
 }
 
-/* line 266, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 273, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 #carousel__main .row {
   width: 50%;
   display: flex;
@@ -241,7 +250,7 @@ header nav ul li a {
   padding-bottom: 50px;
 }
 
-/* line 278, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 285, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .opiniones {
   display: flex;
   flex-direction: column;
@@ -250,7 +259,7 @@ header nav ul li a {
   max-width: 100%;
 }
 
-/* line 288, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 295, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .opiniones .opiniones-1 {
   display: flex;
   text-align: center;
@@ -260,7 +269,7 @@ header nav ul li a {
   padding-bottom: 70px;
 }
 
-/* line 297, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 304, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .opiniones .opiniones-2 {
   display: flex;
   flex-direction: row;
@@ -270,7 +279,7 @@ header nav ul li a {
   margin-bottom: 50px;
 }
 
-/* line 306, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 313, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .opiniones .opiniones-2 .opiniones-2-1 {
   display: flex;
   flex-direction: column;
@@ -282,7 +291,7 @@ header nav ul li a {
   border-radius: 15%;
 }
 
-/* line 317, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 324, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .opiniones .opiniones-2 .opiniones-2-1-photo {
   padding-top: 5px;
   width: 100px;
@@ -290,26 +299,26 @@ header nav ul li a {
   border-radius: 50%;
 }
 
-/* line 325, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 332, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .opiniones .opiniones-2 .opiniones-2-1-nombres {
   font-size: 30px;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* line 330, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 337, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .opiniones .opiniones-2 .opiniones-2-1-opinion {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 35px;
 }
 
-/* line 340, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 347, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .index_wallpaper {
   background-image: url(../fotos/prueba_01.jpg);
   background-position: center;
   height: 800px;
 }
 
-/* line 347, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 354, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .gift {
   display: flex;
   flex-direction: row;
@@ -321,7 +330,7 @@ header nav ul li a {
   align-items: flex-end;
 }
 
-/* line 357, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 364, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .gift .gift_01 {
   width: 100%;
   text-align: center;
@@ -329,25 +338,25 @@ header nav ul li a {
   justify-content: center;
 }
 
-/* line 366, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 373, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .gift .gift_02_01 {
   display: flex;
   flex-direction: column;
 }
 
-/* line 370, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 377, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .gift .gift_02_01 h1 {
   color: black;
   font-size: 3.5rem;
   border-bottom: 2px solid black;
 }
 
-/* line 376, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 383, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .gift .gift_02_01 p {
   color: #6d6868;
 }
 
-/* line 381, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 388, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .gift .gift_02_01 .gift_02 {
   width: 100%;
   text-align: center;
@@ -357,7 +366,7 @@ header nav ul li a {
   padding-bottom: 50px;
 }
 
-/* line 389, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 396, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .gift .gift_02_01 .gift_02 .form-control-03 {
   background-color: #f2f2f2;
   border: 3px solid black;
@@ -366,12 +375,12 @@ header nav ul li a {
   padding-bottom: 20px;
 }
 
-/* line 397, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 404, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .gift .gift_02_01 .gift_02 .form-control-03 a {
   color: black;
 }
 
-/* line 405, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 412, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .gift .gift_02_01 .form-control-02 {
   background-color: #f2f2f2;
   border: 3px solid black;
@@ -381,13 +390,13 @@ header nav ul li a {
   resize: none;
 }
 
-/* line 416, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+/* line 423, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
 .gift .photo__gift {
   width: 40%;
 }
 
 @media (max-width: 400px) {
-  /* line 427, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+  /* line 434, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
   .opiniones {
     display: flex;
     flex-direction: column;
@@ -396,7 +405,7 @@ header nav ul li a {
     height: auto;
     max-width: 100%;
   }
-  /* line 437, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+  /* line 444, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
   .opiniones-2-1 {
     display: flex;
     flex-direction: column;
@@ -407,7 +416,7 @@ header nav ul li a {
     color: white;
     border-radius: 15%;
   }
-  /* line 448, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+  /* line 455, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
   .opiniones-2 {
     display: flex;
     flex-direction: row;
@@ -417,14 +426,14 @@ header nav ul li a {
     margin-bottom: 50px;
     width: 100%;
   }
-  /* line 458, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+  /* line 465, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
   .photos {
     display: inline;
     width: 250px;
     height: 250px;
     margin: 20px;
   }
-  /* line 466, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
+  /* line 473, ../../CODERHOUSE/ProyectoCoder/scss/_main.scss */
   .header__main {
     background-image: url(../fotos/fotos_generales_mobile/prueba_01.jpg);
   }
